@@ -33,8 +33,14 @@ nav.menu-desktop {
     float: right;
 }
 
-nav.menu-desktop li {
+.selected {
+    color: white;
+    text-decoration: underline;
     font-weight: bold;
+}
+
+nav.menu-desktop li {
+    font-weight: lighter;
 }
 
 nav.menu-desktop li {
