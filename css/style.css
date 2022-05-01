@@ -78,7 +78,7 @@ nav.menu-desktop a:hover { /*o que acontece quando o mouse passar por cima (hove
 }
 
 section.main-bg {
-    display: inline-flex;
+    display: inline;
     position: relative;
     padding: 100px;
     margin: auto 450px;
