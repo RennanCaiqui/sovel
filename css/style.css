@@ -119,3 +119,10 @@ section.main-bg p {
     background-color: rgb(18, 47, 191);
     cursor: pointer;
 }
+
+@media screen and (max-width: 640px) {
+    section {
+        height: auto;
+        width: 100%;
+    }
+}
