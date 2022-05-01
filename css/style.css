@@ -84,7 +84,6 @@ section.main-bg {
     background-image: url('../img/area_externa.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 section.main-bg > .container {
