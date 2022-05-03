@@ -155,16 +155,12 @@ section.visaoOrganizacional {
 
 .caixa-icone {
     float: left;
-    width: 16.6%;
+    width: 33%;
 }
 
 .caixa-icone p {
     font-size: 22px;
     margin: 20px auto;
-}
-
-.icones-diferenciais {
-    margin: ;
 }
 
 @media screen and (max-width: 640px) {
