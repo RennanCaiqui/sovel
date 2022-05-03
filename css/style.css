@@ -163,7 +163,10 @@ section.visaoOrganizacional {
     margin: 20px auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
+    .caixa-icone {
+        width: 100%;
+    }
     section {
         height: auto;
         width: 100%;
