@@ -156,6 +156,7 @@ section.visaoOrganizacional {
 .caixa-icone {
     float: left;
     width: 33%;
+    margin-bottom: 25px;
 }
 
 .caixa-icone p {
