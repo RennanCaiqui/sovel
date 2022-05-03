@@ -127,6 +127,32 @@ section.main-bg p {
     cursor: pointer;
 }
 
+section.visaoOrganizacional {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.line-text {
+    position: relative;
+    display: inline-block;
+    color: rgb(2, 82, 255);
+}
+
+.line-text > div {
+    position: absolute;
+    left: 0;
+    top:-5px;
+    width: 100px;
+    height: 5px;
+    background: rgb(2, 82, 255);
+}
+
+.line-text h2 {
+    font-size: 25px;
+    font-weight: normal;
+
+}
+
 @media screen and (max-width: 640px) {
     section {
         height: auto;
