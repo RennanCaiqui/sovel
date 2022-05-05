@@ -164,6 +164,22 @@ section.visaoOrganizacional {
     margin: 20px auto;
 }
 
+section.sobre-fotos {
+    padding: 30px 0;
+}
+
+section.sobre-fotos > .container {
+    display: flex;
+}
+
+.fotos-container {
+    width: 50%;
+}
+
+.sobre-container {
+    width: 50%;
+}
+
 @media screen and (max-width: 768px) {
     .caixa-icone {
         width: 100%;
