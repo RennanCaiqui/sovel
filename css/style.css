@@ -187,7 +187,10 @@ section.sobre-fotos > .container {
 }
 
 .img-caixas-sobre {
-
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background-size: 100% 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -200,6 +203,9 @@ section.sobre-fotos > .container {
     }
 
     section.main-bg > p.container {
-        display: contents;
+        display: flex;
+        max-width: max-content;
+        margin: auto;
+        padding: 0%;
     }
 }
