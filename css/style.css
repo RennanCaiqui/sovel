@@ -187,7 +187,7 @@ section.sobre-fotos > .container {
 }
 
 .img-caixas-sobre {
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -197,5 +197,9 @@ section.sobre-fotos > .container {
     section {
         height: auto;
         width: 100%;
+    }
+
+    section.main-bg > p.container {
+        display: contents;
     }
 }
