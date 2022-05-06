@@ -68,7 +68,7 @@ nav.menu-desktop a:hover { /*o que acontece quando o mouse passar por cima (hove
 
 .fachadaPrincipal {
     margin: 20px auto;
-    width: 50%;
+    width: 90%;
     background-color: rgb(50, 50, 255);
     text-align: center;
     font-size: 28px;
