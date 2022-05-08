@@ -165,8 +165,9 @@ section.visaoOrganizacional {
 }
 
 section.sobre-fotos {
-    padding: 30px 0;
+    padding: 200px 0;
     background: rgb(67, 67, 67);
+    margin: 20px auto;
 }
 
 section.sobre-fotos > .container {
@@ -175,6 +176,11 @@ section.sobre-fotos > .container {
 
 .sobre-container {
     width: 50%;
+}
+
+.slideshow {
+    width: 50%;
+    transform: translate(20%, -50%);
 }
 
 .sobre-container p {
@@ -188,6 +194,17 @@ section.sobre-fotos > .container {
     height: 150px;
     border-radius: 50%;
     background-size: 100% 100%;
+}
+
+.content {
+    height: 520px;
+    width: 480px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: absolute;
+    overflow: hidden;
+
 }
 
 @media screen and (max-width: 768px) {
