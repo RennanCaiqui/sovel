@@ -207,6 +207,27 @@ section.sobre-fotos > .container {
 
 }
 
+.navegacao {
+    position: absolute;
+    bottom: 20px;
+    left: 7%;
+    display: flex;
+}
+
+.barra {
+    width: 70px;
+    height: 18px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.barra:hover {
+    background-color: white;
+}
+
+
 @media screen and (max-width: 768px) {
     .caixa-icone {
         width: 100%;
