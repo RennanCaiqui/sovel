@@ -179,8 +179,9 @@ section.sobre-fotos > .container {
 }
 
 .slideshow {
+    position: absolute;
+    left: 40%;
     width: 50%;
-    transform: translate(20%, -50%);
 }
 
 .sobre-container p {
