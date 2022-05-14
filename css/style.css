@@ -282,7 +282,7 @@ input {
 
     .general-slides {
         width: 100%;
-        max-width: max-content;
+        max-width: fit-content;
     }
 
     .sobre-container {
