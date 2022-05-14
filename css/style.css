@@ -276,15 +276,13 @@ input {
         height: auto;
         width: 100%;
     }
-
-    section.main-bg > p {
-        /*falta implementar... */
+    section.main-bg > p.container {
+        width: 100%;
     }
 
-    .slideshow {
-        display: block;
-        align-items: center;
-        justify-content: center;
+    .general-slides {
+        width: 100%;
+        max-width: max-content;
     }
 
     .sobre-container {
