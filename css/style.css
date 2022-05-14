@@ -285,8 +285,24 @@ input {
         max-width: fit-content;
     }
 
+    .container {
+        max-width: max-content;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    .fachadaPrincipal {
+        width: 100%;
+    }
+
     .sobre-container {
         width: 100%;
         display: flex;
+    }
+
+    .botao {
+        font-size: 20px;
+        max-width: 200px;
+        background-color: rgb(18, 47, 191);
     }
 }
